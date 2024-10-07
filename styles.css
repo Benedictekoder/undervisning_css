@@ -1,0 +1,40 @@
+/*CSS Selector*/
+body{
+    /*CSS Rule*/
+    margin: 0;
+}
+
+header{
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding-inline: 10px;
+}
+
+section{
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+.homeSection{
+    background-color: lightsalmon;
+}
+
+#aboutSection{
+background-color: lightgreen;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
